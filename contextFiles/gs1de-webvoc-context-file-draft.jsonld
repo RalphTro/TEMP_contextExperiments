@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@protected": true,
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/elements/1.1/",
+    "gs1": "https://ref.gs1.org/voc/",
+    "gs1de": "https://voc.gs1.de/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ReferenceNumber": "gs1de:ReferenceNumber",
+    "productionDateStart": {
+      "@id": "gs1de:productionDateStart",
+      "@type": "xsd:date"
+    },
+    "productionDateEnd": {
+      "@id": "gs1de:productionDateEnd",
+      "@type": "xsd:date"
+    },
+    "referenceNumber": {
+      "@id": "gs1de:referenceNumber"
+    },
+    "referenceNumberValue": {
+      "@id": "gs1de:referenceNumberValue",
+      "@type": "xsd:string"
+    },
+    "referenceNumberVerificationID": {
+      "@id": "gs1de:referenceNumberVerificationID",
+      "@type": "xsd:string"
+    },
+    "referenceNumberTypeCode": {
+      "@id": "gs1de:referenceNumberTypeCode",
+      "@type": "@vocab",
+      "@context": {
+        "EUDR_SENDER": "gs1de:ReferenceNumberTypeCode-EUDR_SENDER",
+        "EUDR_SUPPLIER": "gs1de:ReferenceNumberTypeCode-EUDR_SUPPLIER",
+        "@protected": true
+      }
+    }
+  }
+}
