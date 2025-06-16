@@ -6,7 +6,7 @@
     "type": "@type",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/elements/1.1/",
-    "epcis": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+    "epcis": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld/",
     "gs1": "https://ref.gs1.org/voc/",
     "gs1de": "https://voc.gs1.de/",
     "owl": "http://www.w3.org/2002/07/owl#",
