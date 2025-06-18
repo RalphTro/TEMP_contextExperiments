@@ -49,6 +49,7 @@
     },
     "regulationTypeCode": {
       "@id": "gs1de:regulationTypeCode",
+      "@type": "@vocab",
       "@context": {
         "DEFORESTATION_REGULATION": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION",
         "@protected": true
