@@ -49,6 +49,12 @@
     "plotOfOrigin": {
       "@id": "gs1de:plotOfOrigin"
     },
+    "importClassification": {
+      "@id": "gs1de:importClassification"
+    },
+    "importClassificationValue": {
+      "@id": "gs1de:importClassificationValue"
+    },
     "referenceNumberTypeCode": {
       "@id": "gs1de:referenceNumberTypeCode",
       "@type": "@vocab",
