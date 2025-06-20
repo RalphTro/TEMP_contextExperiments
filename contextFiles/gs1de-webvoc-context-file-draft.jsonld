@@ -40,9 +40,6 @@
       "@id": "gs1de:referenceNumberVerificationID",
       "@type": "xsd:string"
     },
-    "regulatoryInformation": {
-      "@id": "gs1de:regulatoryInformation"
-    },
     "gs1de:regulatoryInformation": {
       "@id": "gs1de:regulatoryInformation"
     },
