@@ -16,6 +16,11 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "ReferenceNumber": "gs1de:ReferenceNumber",
     "RegulatoryInformation": "gs1de:RegulatoryInformation",
+    "ImportClassification": "gs1de:ImportClassification",
+    "MasterDataSet": "gs1de:MasterDataSet",
+    "OrganismClassification": "gs1de:OrganismClassification",
+    "LicenceDetails": "gs1de:LicenceDetails",
+    "LicenceID_Details": "gs1de:LicenceID_Details",
     "productionDateStart": {
       "@id": "gs1de:productionDateStart",
       "@type": "xsd:date"
@@ -35,6 +40,15 @@
       "@id": "gs1de:referenceNumberVerificationID",
       "@type": "xsd:string"
     },
+    "regulatoryInformation": {
+      "@id": "gs1de:regulatoryInformation"
+    },
+    "gs1de:regulatoryInformation": {
+      "@id": "gs1de:regulatoryInformation"
+    },
+    "plotOfOrigin": {
+      "@id": "gs1de:plotOfOrigin"
+    },
     "referenceNumberTypeCode": {
       "@id": "gs1de:referenceNumberTypeCode",
       "@type": "@vocab",
@@ -44,12 +58,6 @@
         "@protected": true
       }
     },
-    "regulatoryInformation": {
-      "@id": "gs1de:regulatoryInformation"
-    },
-    "gs1de:regulatoryInformation": {
-      "@id": "gs1de:regulatoryInformation"
-    },
     "regulationTypeCode": {
       "@id": "gs1de:regulationTypeCode",
       "@type": "@vocab",
@@ -58,8 +66,14 @@
         "@protected": true
       }
     },
-    "plotOfOrigin": {
-      "@id": "gs1de:plotOfOrigin"
+    "importClassificationTypeCode": {
+      "@id": "gs1de:importClassificationTypeCode",
+      "@type": "@vocab",
+      "@context": {
+        "HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
+        "INTRASTAT_COMBINED_NOMENCLATURE": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+        "@protected": true
+      }
     },
     "rdfs:comment": {
       "@id": "rdfs:comment",
