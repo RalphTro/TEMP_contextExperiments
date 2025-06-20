@@ -17,7 +17,7 @@
 
     "ReferenceNumber": "gs1de:ReferenceNumber",
     "RegulatoryInformation": "gs1de:RegulatoryInformation",
-    
+
     "productionDateStart": {
       "@id": "gs1de:productionDateStart",
       "@type": "xsd:date"
@@ -63,9 +63,6 @@
     "rdfs:comment": {
       "@id": "rdfs:comment",
       "@container": "@language"
-    },
-    "comment": {
-      "@id": "rdfs:comment"
     }
   }
 }
