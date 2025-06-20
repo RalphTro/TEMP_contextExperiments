@@ -14,10 +14,8 @@
     "schema": "http://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-
     "ReferenceNumber": "gs1de:ReferenceNumber",
     "RegulatoryInformation": "gs1de:RegulatoryInformation",
-
     "productionDateStart": {
       "@id": "gs1de:productionDateStart",
       "@type": "xsd:date"
@@ -59,6 +57,9 @@
         "DEFORESTATION_REGULATION": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION",
         "@protected": true
       }
+    },
+    "plotOfOrigin": {
+      "@id": "gs1de:plotOfOrigin"
     },
     "rdfs:comment": {
       "@id": "rdfs:comment",
