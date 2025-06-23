@@ -34,23 +34,23 @@
     "gs1de:referenceNumberTypeCode": {
       "@type": "@vocab",
       "@context": {
-        "EUDR_SENDER": "gs1de:ReferenceNumberTypeCode-EUDR_SENDER",
-        "EUDR_SUPPLIER": "gs1de:ReferenceNumberTypeCode-EUDR_SUPPLIER",
+        "gs1de:EUDR_SENDER": "gs1de:ReferenceNumberTypeCode-EUDR_SENDER",
+        "gs1de:EUDR_SUPPLIER": "gs1de:ReferenceNumberTypeCode-EUDR_SUPPLIER",
         "@protected": true
       }
     },
     "gs1de:regulationTypeCode": {
       "@type": "@vocab",
       "@context": {
-        "DEFORESTATION_REGULATION": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION",
+        "gs1de:DEFORESTATION_REGULATION": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION",
         "@protected": true
       }
     },
     "gs1de:importClassificationTypeCode": {
       "@type": "@vocab",
       "@context": {
-        "HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
-        "INTRASTAT_COMBINED_NOMENCLATURE": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+        "gs1de:HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
+        "gs1de:INTRASTAT_COMBINED_NOMENCLATURE": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
         "@protected": true
       }
     },
