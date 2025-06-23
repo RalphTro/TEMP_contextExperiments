@@ -14,13 +14,6 @@
     "schema": "http://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "ReferenceNumber": "gs1de:ReferenceNumber",
-    "RegulatoryInformation": "gs1de:RegulatoryInformation",
-    "ImportClassification": "gs1de:ImportClassification",
-    "MasterDataSet": "gs1de:MasterDataSet",
-    "OrganismClassification": "gs1de:OrganismClassification",
-    "LicenceDetails": "gs1de:LicenceDetails",
-    "LicenceID_Details": "gs1de:LicenceID_Details",
     "productionDateStart": {
       "@id": "gs1de:productionDateStart",
       "@type": "xsd:date"
@@ -29,14 +22,14 @@
       "@id": "gs1de:productionDateEnd",
       "@type": "xsd:date"
     },
-    "referenceNumber": {
+    "gs1de:referenceNumber": {
       "@id": "gs1de:referenceNumber"
     },
-    "referenceNumberValue": {
+    "gs1de:referenceNumberValue": {
       "@id": "gs1de:referenceNumberValue",
       "@type": "xsd:string"
     },
-    "referenceNumberVerificationID": {
+    "gs1de:referenceNumberVerificationID": {
       "@id": "gs1de:referenceNumberVerificationID",
       "@type": "xsd:string"
     },
@@ -53,7 +46,7 @@
       "@id": "gs1de:importClassificationValue",
       "@type": "xsd:string"
     },
-    "referenceNumberTypeCode": {
+    "gs1de:referenceNumberTypeCode": {
       "@id": "gs1de:referenceNumberTypeCode",
       "@type": "@vocab",
       "@context": {
@@ -62,7 +55,7 @@
         "@protected": true
       }
     },
-    "regulationTypeCode": {
+    "gs1de:regulationTypeCode": {
       "@id": "gs1de:regulationTypeCode",
       "@type": "@vocab",
       "@context": {
