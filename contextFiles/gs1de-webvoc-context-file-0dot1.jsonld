@@ -30,7 +30,6 @@
     "gs1de:importClassificationValue": {
       "@type": "xsd:string"
     },
-
     "gs1de:referenceNumberTypeCode": {
       "@type": "@vocab",
       "@context": {
@@ -47,6 +46,7 @@
       }
     },
     "gs1de:importClassificationTypeCode": {
+      "@id": "gs1de:importClassificationTypeCode",
       "@type": "@vocab",
       "@context": {
         "gs1de:HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
@@ -54,7 +54,6 @@
         "@protected": true
       }
     },
-
     "rdfs:comment": {
       "@id": "rdfs:comment",
       "@container": "@language"
