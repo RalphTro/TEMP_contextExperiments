@@ -6,7 +6,7 @@
     "gs1de": "https://voc.gs1.de/",
 
     "gs1de:productionDateStart": {
-      "@id": "https://voc.gs1.de/productionDateStart",
+      "@id": "gs1de:productionDateStart",
       "@type": "xsd:date"
     },
     "gs1de:productionDateEnd": {
