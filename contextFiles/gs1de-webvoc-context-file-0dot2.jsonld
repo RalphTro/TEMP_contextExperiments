@@ -1,13 +1,16 @@
 {
   "@context": {
     "@version": 1.1,
-
+    "@protected": true,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "gs1de": "https://voc.gs1.de/",
 
     "gs1de:productionDateStart": {
+      "@id": "https://voc.gs1.de/productionDateStart",
       "@type": "xsd:date"
     },
     "gs1de:productionDateEnd": {
+       "@id": "https://voc.gs1.de/productionDateEnd",
       "@type": "xsd:date"
     }
   }
