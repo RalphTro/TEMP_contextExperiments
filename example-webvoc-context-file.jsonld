@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "ex": "https://example.org/voc#",
+
+    "ex:productionDateStart": {
+      "@id": "https://example.org/voc#productionDateStart",
+      "@type": "xsd:date"
+    },
+    "ex:productionDateEnd": {
+      "@id": "https://example.org/voc#productionDateEnd",
+      "@type": "xsd:date"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  }
+}
