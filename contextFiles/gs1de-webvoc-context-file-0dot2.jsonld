@@ -6,7 +6,6 @@
     "id": "@id",
     "type": "@type",
 
-    "gs1": "https://ref.gs1.org/voc/",
     "gs1de": "https://voc.gs1.de/",
 
     "gs1de:productionDateStart": {
