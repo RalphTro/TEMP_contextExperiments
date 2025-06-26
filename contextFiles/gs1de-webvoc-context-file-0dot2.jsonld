@@ -13,7 +13,6 @@
       "@type": "xsd:date"
     },
     "gs1de:productionDateEnd": {
-      "@id": "gs1de:productionDateEnd",
       "@type": "xsd:date"
     },
     "gs1de:referenceNumber": {
