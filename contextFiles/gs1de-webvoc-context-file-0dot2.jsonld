@@ -11,8 +11,7 @@
     "gs1": "https://ref.gs1.org/voc/",
     "gs1de": "https://voc.gs1.de/",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "gs1de:productionDateStart": {
       "@id": "gs1de:productionDateStart",
