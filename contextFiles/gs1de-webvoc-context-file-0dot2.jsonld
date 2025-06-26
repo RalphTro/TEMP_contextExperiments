@@ -6,6 +6,9 @@
     "id": "@id",
     "type": "@type",
 
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/elements/1.1/",
+
 
     "gs1de": "https://voc.gs1.de/",
 
@@ -15,7 +18,7 @@
       "@type": "xsd:date"
     },
     "gs1de:productionDateEnd": {
-       "@id": "https://voc.gs1.de/productionDateEnd",
+      "@id": "https://voc.gs1.de/productionDateEnd",
       "@type": "xsd:date"
     }
   }
