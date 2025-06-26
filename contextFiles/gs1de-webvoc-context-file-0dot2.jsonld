@@ -15,6 +15,60 @@
     "gs1de:productionDateEnd": {
       "@id": "gs1de:productionDateEnd",
       "@type": "xsd:date"
+    },
+    "gs1de:referenceNumber": {
+      "@id": "gs1de:referenceNumber"
+    },
+    "gs1de:referenceNumberValue": {
+      "@id": "gs1de:referenceNumberValue",
+      "@type": "xsd:string"
+    },
+    "gs1de:referenceNumberVerificationID": {
+      "@id": "gs1de:referenceNumberVerificationID",
+      "@type": "xsd:string"
+    },
+    "gs1de:regulatoryInformation": {
+      "@id": "gs1de:regulatoryInformation"
+    },
+    "gs1de:plotOfOrigin": {
+      "@id": "gs1de:plotOfOrigin"
+    },
+    "gs1de:importClassification": {
+      "@id": "gs1de:importClassification"
+    },
+    "gs1de:importClassificationValue": {
+      "@id": "gs1de:importClassificationValue",
+      "@type": "xsd:string"
+    },
+    "gs1de:referenceNumberTypeCode": {
+      "@id": "gs1de:referenceNumberTypeCode",
+      "@type": "@vocab",
+      "@context": {
+        "EUDR_SENDER": "gs1de:ReferenceNumberTypeCode-EUDR_SENDER",
+        "EUDR_SUPPLIER": "gs1de:ReferenceNumberTypeCode-EUDR_SUPPLIER",
+        "@protected": true
+      }
+    },
+    "gs1de:regulationTypeCode": {
+      "@id": "gs1de:regulationTypeCode",
+      "@type": "@vocab",
+      "@context": {
+        "DEFORESTATION_REGULATION": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION",
+        "@protected": true
+      }
+    },
+    "gs1de:importClassificationTypeCode": {
+      "@id": "gs1de:importClassificationTypeCode",
+      "@type": "@vocab",
+      "@context": {
+        "HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
+        "INTRASTAT_COMBINED_NOMENCLATURE": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+        "@protected": true
+      }
+    },
+    "rdfs:comment": {
+      "@id": "rdfs:comment",
+      "@container": "@language"
     }
   }
 }
