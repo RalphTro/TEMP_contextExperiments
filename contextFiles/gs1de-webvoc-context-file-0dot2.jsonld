@@ -10,7 +10,6 @@
     "dcterms": "http://purl.org/dc/elements/1.1/",
     "gs1": "https://ref.gs1.org/voc/",
     "gs1de": "https://voc.gs1.de/",
-    "owl": "http://www.w3.org/2002/07/owl#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "gs1de:productionDateStart": {
