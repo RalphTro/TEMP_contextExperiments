@@ -10,7 +10,6 @@
     "dcterms": "http://purl.org/dc/elements/1.1/",
     "gs1": "https://ref.gs1.org/voc/",
     "gs1de": "https://voc.gs1.de/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "gs1de:productionDateStart": {
       "@id": "gs1de:productionDateStart",
