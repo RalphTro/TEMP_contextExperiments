@@ -32,11 +32,7 @@
     "gs1de:plotOfOrigin": {
       "@id": "gs1de:plotOfOrigin"
     },
-    "gs1de:importClassification": {
-      "@id": "gs1de:importClassification"
-    },
     "gs1de:importClassificationValue": {
-      "@id": "gs1de:importClassificationValue",
       "@type": "xsd:string"
     },
     "gs1de:referenceNumberTypeCode": {
@@ -57,7 +53,6 @@
       }
     },
     "gs1de:importClassificationTypeCode": {
-      "@id": "gs1de:importClassificationTypeCode",
       "@type": "@vocab"
     },
     "rdfs:comment": {
