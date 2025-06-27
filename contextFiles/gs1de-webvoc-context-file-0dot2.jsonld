@@ -2,12 +2,9 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-
     "id": "@id",
     "type": "@type",
-
     "gs1de": "https://voc.gs1.de/",
-
     "gs1de:productionDateStart": {
       "@type": "xsd:date"
     },
@@ -23,8 +20,16 @@
     "gs1de:importClassificationTypeCode": {
       "@type": "@vocab"
     },
+    "gs1de:organismTypeCodeList": {
+      "@type": "@vocab"
+    },
+    "gs1de:licenceIdentificationTypeCode": {
+      "@type": "@vocab"
+    },
+    "gs1de:commonName": {
+      "@container": "@language"
+    },
     "rdfs:comment": {
-      "@id": "rdfs:comment",
       "@container": "@language"
     }
   }
