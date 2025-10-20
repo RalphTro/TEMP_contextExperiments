@@ -27,6 +27,9 @@
     "gs1de:commonName": {
       "@container": "@language"
     },
+    "gs1de:materialCode":{
+      "@type": "@vocab"
+    },
     "rdfs:comment": {
       "@container": "@language"
     }
