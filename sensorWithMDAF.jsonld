@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/RalphTro/epcis-event-hash-generator/refs/heads/MDAF-Support/epcis_event_hash_generator/d7b7387ef0ea28c725046d7c491218f0d765e84b58199cb4c1896516157f4fbb.jsonld",
+        "https://ref.gs1.org/standards/epcis/epcis-context.jsonld"
+    ],
+    "type": "EPCISDocument",
+    "schemaVersion": "2.0",
+    "creationDate": "2025-10-28T11:30:47.0Z",
+    "epcisBody": {
+        "eventList": [
+            {
+                "eventID": "ni:///sha-256;74f1dc48ee22289bc40ddd9f1d0ecae0dd09a2f4c3dfa66fdbca16cb2d8a4e77?ver=CBV2.0",
+                "type": "ObjectEvent",
+                "action": "OBSERVE",
+                "bizStep": "sensor_reporting",
+                "epcList": [
+                    "https://id.gs1.org/01/04012345123456/21/1"
+                ],
+                "eventTime": "2025-10-28T11:30:47.0Z",
+                "eventTimeZoneOffset": "+01:00",
+                "readPoint": {
+                    "id": "https://id.gs1.org/01/04012345123456/21/1"
+                },
+                "sensorElementList": [
+                    {
+                        "sensorReport": [
+                            {
+                                "type": "Temperature",
+                                "value": 26.0,
+                                "uom": "CEL"
+                            },
+                            {
+                                "type": "AbsoluteHumidity",
+                                "value": 12.1,
+                                "uom": "A93"
+                            }
+                        ]
+                    }
+                ],
+                "gs1:masterDataAvailableFor": [
+                    {
+                        "id": "https://id.gs1.org/01/04012345123456/21/1",
+                        "type": "gs1:Product",
+                        "expirationDate": "2024-11-20",
+                        "netWeight": {
+                            "value": "120",
+                            "unitCode": "GRM"
+                        },
+                        "schema:countryOfOrigin": "EC"
+                    }
+                ]
+            }
+        ]
+    }
+}
