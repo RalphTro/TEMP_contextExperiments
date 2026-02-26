@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "rlph": "https://example.org/epcis/extensions/rlph/",
+
+    "rlph:specialDate": {
+      "@id": "rlph:specialDate",
+      "@type": "xsd:dateTime"
+    },
+    "rlph:tableName": {
+      "@id": "rlph:tableName",
+      "@type": "xsd:string"
+    },
+    "rlph:successFlag": {
+      "@id": "rlph:successFlag",
+      "@type": "xsd:boolean"
+    }
+  }
+}
