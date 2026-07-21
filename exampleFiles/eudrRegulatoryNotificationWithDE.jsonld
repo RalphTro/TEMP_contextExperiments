@@ -1,0 +1,39 @@
+{
+    "@context": [
+        "https://ref.gs1.org/voc/data/GS1-core-context.jsonld",
+        "https://ref.gs1.org/voc/data/GS1-WebVoc-context.jsonld",
+        "https://raw.githubusercontent.com/RalphTro/TEMP_contextExperiments/refs/heads/main/contextFiles/gs1de-webvoc-context-file-0dot4.jsonld"     
+    ],
+    "type": "RegulatoryNotification",
+    "messageSender": "https://senderCo.example/417/9521141123454",
+    "messageRecipient": "https://recipientCo.example/417/9529876543219",
+    "regulatoryInformation": [
+        {
+            "regulatoryAct": "EU 2023/1115",
+            "regulationType": "DEFORESTATION_REGULATION",
+            "regulatoryIdentifier": [
+                {
+                    "regulatoryReferenceNumber": "r123",
+                    "regulatoryVerificationNumber": "v456",
+                    "regulatoryIdentifierType": "DUE_DILIGENCE_STATEMENT",
+                    "applicableProducts": [
+                        "https://example.com/01/09506000134369/10/LOT-1"
+                    ]
+                }
+            ]
+        }
+    ],
+    "masterDataAvailableFor": [
+        {
+            "id": "https://example.com/01/09506000134369/10/LOT-1",
+            "type": "gs1:Product",
+            "schema:countryOfOrigin": "EC",
+            "gs1de:importClassification": [
+                {
+                    "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+                    "gs1de:importClassificationValue": "09011100"
+                }
+            ]
+        }
+    ]
+}
