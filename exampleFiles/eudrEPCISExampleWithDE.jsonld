@@ -1,8 +1,7 @@
 {
     "@context": [
-        "https://ref.gs1.org/voc/data/GS1-WebVoc-context.jsonld",
-        "https://raw.githubusercontent.com/RalphTro/TEMP_contextExperiments/refs/heads/main/contextFiles/gs1de-webvoc-context-file-0dot4.jsonld",
-        "https://raw.githubusercontent.com/RalphTro/TEMP_contextExperiments/refs/heads/main/contextFiles/epcis-snapshot-adjusted.jsonld"
+        "https://raw.githubusercontent.com/RalphTro/TEMP_contextExperiments/refs/heads/main/contextFiles/epcis-context-2-dot-1-draft-adjusted.jsonld",
+        "https://raw.githubusercontent.com/RalphTro/TEMP_contextExperiments/refs/heads/main/contextFiles/gs1de-webvoc-context-file-0dot4.jsonld"
     ],
     "type": "EPCISDocument",
     "schemaVersion": "2.0",
