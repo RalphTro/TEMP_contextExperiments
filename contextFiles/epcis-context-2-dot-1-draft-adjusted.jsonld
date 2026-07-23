@@ -199,33 +199,6 @@
                 "@id": "epcis:quantityList",
                 "@container": "@set"
             },
-            "bizTransactionList": {
-                "@id": "epcis:bizTransactionList",
-                "@container": "@set",
-                "@context": {
-                    "@protected": true,
-                    "bizTransaction": "@id",
-                    "type": {
-                        "@id": "epcis:bizTransactionType",
-                        "@type": "@vocab",
-                        "@context": {
-                            "bol": "cbv:BTT-bol",
-                            "cert": "cbv:BTT-cert",
-                            "desadv": "cbv:BTT-desadv",
-                            "inv": "cbv:BTT-inv",
-                            "pedigree": "cbv:BTT-pedigree",
-                            "po": "cbv:BTT-po",
-                            "poc": "cbv:BTT-poc",
-                            "prodorder": "cbv:BTT-prodorder",
-                            "recadv": "cbv:BTT-recadv",
-                            "rma": "cbv:BTT-rma",
-                            "testprd": "cbv:BTT-testprd",
-                            "testres": "cbv:BTT-testres",
-                            "upevt": "cbv:BTT-upevt"
-                        }
-                    }
-                }
-            },
             "parentID": {
                 "@id": "epcis:parentID",
                 "@type": "@id"
