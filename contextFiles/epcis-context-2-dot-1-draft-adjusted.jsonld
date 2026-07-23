@@ -132,46 +132,6 @@
                 "@type": "@id",
                 "@container": "@set"
             },
-            "sourceList": {
-                "@id": "epcis:sourceList",
-                "@container": "@set",
-                "@context": {
-                    "@protected": true,
-                    "source": {
-                        "@id": "epcis:sourceOrDestination",
-                        "@type": "@id"
-                    },
-                    "type": {
-                        "@id": "epcis:sourceOrDestinationType",
-                        "@type": "@vocab",
-                        "@context": {
-                            "owning_party": "cbv:SDT-owning_party",
-                            "possessing_party": "cbv:SDT-possessing_party",
-                            "location": "cbv:SDT-location"
-                        }
-                    }
-                }
-            },
-            "destinationList": {
-                "@id": "epcis:destinationList",
-                "@container": "@set",
-                "@context": {
-                    "@protected": true,
-                    "destination": {
-                        "@id": "epcis:sourceOrDestination",
-                        "@type": "@id"
-                    },
-                    "type": {
-                        "@id": "epcis:sourceOrDestinationType",
-                        "@type": "@vocab",
-                        "@context": {
-                            "owning_party": "cbv:SDT-owning_party",
-                            "possessing_party": "cbv:SDT-possessing_party",
-                            "location": "cbv:SDT-location"
-                        }
-                    }
-                }
-            },
             "persistentDisposition": {
                 "@id": "epcis:persistentDisposition",
                 "@container": "@set",
